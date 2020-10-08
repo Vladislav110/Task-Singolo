@@ -78,30 +78,3 @@ function shuffleImages() {
         setTimeout(() => item.classList.remove('hidden'), 300);
     });
 }
-
-/*
-function burgerMenu(selector) {
-    let menu = $(selector);
-    let button = menu.find('.menu__btn');
-    let links = menu.find('.menu__item');
-    let overlay = menu.find('.burger_menu_overlay');
-
-    button.on('click', (e) => {
-        e.preventDefult();
-        toggleMenu();
-    });
-
-    links.on('click', () => toggleMenu());
-    overlay.on('click', () => toggleMenu());
-
-    function toggleMenu() {
-        menu.toggleClass('burger_menu_active');
-
-        if (menu.hasClass('burger_menu_active')) {
-            $('body').css('overflow', 'hidden');
-        } else {
-            $('body').css('overflow', 'visible');
-        }
-    }
-}
-burgerMenu('.hamburger-menu');
