@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="menuposition">
+        <section class="menustyle">
+            <div class="hamburger-menu">
+                <div class="burger_menu_overlay"></div>
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                    <span></span>
+                </label>
+                <ul class="menu__box">
+                    <ul>
+                        <h1 class="logotipe">Singolo<span class="symbol">*</span></h1>
+                    </ul>
+                    <li><a class="menu__item" href="#t4">Home</a></li>
+                    <li><a class="menu__item" href="#t2">Services</a></li>
+                    <li><a class="menu__item" href="#t1">Portfolio</a></li>
+                    <li><a class="menu__item" href="#t3">About</a></li>
+                    <li><a class="menu__item" href="#t3">Contact</a></li>
+                </ul>
+            </div>
+            <h1 class="logo">Singolo<span class="symbol">*</span></h1>
+            <div class="menu">
+                <div class="ul">
+                    <div class="li"><a href="#t4">home</a></div>
+                    <div class="li"><a href="#t2">services</a></div>
+                    <div class="li"><a href="#t1">portfolio</a></div>
+                    <div class="li"><a href="#t3">about</a></div>
+                    <div class="li lastLi"><a href="#t3">contact</a></div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <div class="slider">
+        <div class="item">
+            <img src="sliderImage/Slide-1.jpg">
+        </div>
+        <div class="item">
+            <img src="sliderImage/Slide-2.jpg">
+        </div>
+        <img src="sliderImage/arrow-left.svg" class="arrow-left" onclick="previousSlide()">
+        <img src="sliderImage/arrow-right.svg" class="arrow-right" onclick="nextSlide()">
+    </div>
+    <main class="main" id="t2">
+        <section class="Our_service">
+            <div class="services_content">
+                <h2 class="services_name">Our Services</h2>
+                <p class="services_text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis
+                    mollis,
+                    non commodo luctus,
+                    nisi erat portitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commondo,
+                    tortor mauris condimentum nibh.</p>
+                <article class="cells">
+                    <section class="cell_position">
+                        <div class="cell-icon1"><img src="icons/services-item-1.svg"></div>
+                        <h4 class="cell design">Custom Design</h4>
+                        <p class="cell-discription cell-design">Curabitur vestibulum eget mauris quis laoreet. Phasellus
+                            in quam laoreet, viverra lacus ut, ultrices velit.</p>
+                    </section>
+
+                    <section class="cell_position">
+                        <div class="cell-icon2"><img src="icons/services-item-2.svg"></div>
+                        <h4 class="cell idea">Inovative Ideas</h4>
+                        <p class="cell-discription cell-idea">Quisque luctus, quam eget molestie commodo, lacus purus
+                            cursus purus, nec rutrum tellus dolor id lorem.</p>
+                    </section>
+                    <section class="cell_position">
+                        <div class="cell-icon3"><img src="icons/services-item-3.svg"></div>
+                        <h4 class="cell answer ">Love Is The Answer</h4>
+                        <p class="cell-discription cell-answer">Nulla sed nunc et tortor luctus faucibus. Morbi at
+                            aliquet turpis, et consequal felis. Quisque condimentum.</p>
+                    </section>
+                    <section class="cell_position">
+                        <div class="cell-icon4"><img src="icons/services-item-4.svg"></div>
+                        <h4 class="cell responsive">Responsive Layout</h4>
+                        <p class="cell-discription cell-responsive">Sed porttitor placerat rhoncus. In at nunc tellus.
+                            Maecenas blandit nunc ligula. Praesent elit leo.</p>
+                    </section>
+                    <section class="cell_position">
+                        <div class="cell-icon5"><img src="icons/services-item-5.svg"></div>
+                        <h4 class="cell support">24 / 7 Support</h4>
+                        <p class="cell-discription cell-support">Vivamus vel quam lacinia, tincidunt dui non,
+                            vehicula nisi. Nulla a sem erat. Pellentesque egestas venenatis lorem.
+                        </p>
+                    </section>
+                    <section class="cell_position">
+                        <div class="cell-icon6"><img src="icons/services-item-6.svg"></div>
+                        <h4 class="cell heart">Feel Like A Star</h4>
+                        <p class="cell-discription cell-heart">Quisque hendrerit purus dapibus, ornare nibh
+                            vitae, viverra nibh. Fusce vitae aliquam tellus.</p>
+                    </section>
+                </article>
+            </div>
+        </section>
+    </main>
+    <div class="portfolioPosition">
+        <div class="section2">
+            <div class="name_section" id="t1">Portfolio</div>
+            <div class="text_section">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio
+                sem
+                nec elit.</div>
+            <div class="image_position">
+                <div class="image_style" id="buttons">
+                    <div class="button_section2 icon_all">All</div>
+                    <div class="button_section2">Artwork</div>
+                    <div class="button_section2">Graphic Design</div>
+                    <div class="button_section2">Web Design</div>
+                </div>
+            </div>
+            <div class="portfolio_image" id="portfolio_image">
+                <img src="image/portfolio-1.jpg">
+                <img src="image/portfolio-2.jpg">
+                <img src="image/portfolio-3.jpg">
+                <img src="image/portfolio-4.jpg">
+                <img src="image/portfolio-5.jpg">
+                <img src="image/portfolio-6.jpg">
+                <img src="image/portfolio-7.jpg">
+                <img src="image/portfolio-8.jpg">
+                <img src="image/portfolio-9.jpg">
+                <img src="image/portfolio-10.jpg">
+                <img src="image/portfolio-11.jpg">
+                <img src="image/portfolio-12.jpg">
+
+            </div>
+        </div>
+    </div>
+    <footer class="description_Position">
+        <div class="description">
+            <div class="description_image">&copy Copyright 2013</div>
+            <div class="buttons_position" id="t3">
+                <div class="social_buttons"><a href="https://www.facebook.com"><img src="imageFooter/facebook.svg"></a>
+                </div>
+                <div class="social_buttons"><a href="https://www.google.com"><img src="imageFooter/google-plus.svg"></a>
+                </div>
+                <div class="social_buttons"><a href="https://www.linkedin.com"><img src="imageFooter/linkedin.svg"></a>
+                </div>
+                <div class="social_buttons"><a href="https://www.twitter.com"><img src="imageFooter/twitter.svg"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
